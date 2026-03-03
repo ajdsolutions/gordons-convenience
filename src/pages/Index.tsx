@@ -6,12 +6,12 @@ const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   
   const storeImages = [
-    '/img/logo2.png',
-    '/img/storefront.jpeg',
-    '/img/snacks.jpeg',
-    '/img/coffee.jpeg',
-    '/img/chips.jpeg',
-    '/img/milk_promo.jpg'
+    '/gordons-convenience/img/logo2.png',
+    '/gordons-convenience/img/storefront.jpeg',
+    '/gordons-convenience/img/snacks.jpeg',
+    '/gordons-convenience/img/coffee.jpeg',
+    '/gordons-convenience/img/chips.jpeg',
+    '/gordons-convenience/img/milk_promo.jpg'
   ]
 
   useEffect(() => {
@@ -301,7 +301,7 @@ const Index = () => {
             <div className="relative">
               <div className="aspect-video bg-gray-200 rounded-xl overflow-hidden">
                 <img 
-                  src="/img/IMG_8228.jpeg" 
+                  src="/gordons-convenience/img/IMG_8228.jpeg" 
                   alt="Gordons Convenience Store" 
                   className="w-full h-full object-cover"
                 />
